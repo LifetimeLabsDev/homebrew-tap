@@ -19,7 +19,7 @@ cask "privacynotes" do
 
   # Tauri's updater handles its own upgrades in place.
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "PrivacyNotes.app"
 
